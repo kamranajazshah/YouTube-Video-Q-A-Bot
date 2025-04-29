@@ -8,7 +8,7 @@ from langchain_core.runnables import RunnableParallel, RunnablePassthrough, Runn
 from langchain_core.output_parsers import StrOutputParser
 
 import os
-os.environ["OPENAI_API_KEY"] =""
+os.environ["OPENAI_API_KEY"] =""  #place your openapi link here
 # Helper functions
 def get_transcript(video_id):
     try:
